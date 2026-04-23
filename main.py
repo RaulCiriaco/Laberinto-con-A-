@@ -204,8 +204,8 @@ def generar_datos_entrenamiento(
 def main():
     print("Busqueda A*")
     print("="*30)
-    FILAS , COLS = 10 , 10
-    laberinto = Laberinto(FILAS,COLS, semilla=12)
+    FILAS , COLS = 30 , 30
+    laberinto = Laberinto(FILAS,COLS, random.randint(3,100))
     inicio = (0,0)
     meta = (FILAS-1, COLS-1)
 
